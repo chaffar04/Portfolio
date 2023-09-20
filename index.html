@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio</title>
+    <!--<link rel="stylesheet" href="../styles/HomePage.css" /> -->
+  </head>
+  <body>
+    <header>
+      <h1>MyPortfolio.</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#projectslinks">Projects</a>
+        <a href="#aboutmelink">About Me</a>
+        <a href="#contactlink">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Hi, I'm Carl</h1>
+          <p>Full Stack Developer <br />& <br />Data Scientist</p>
+        </div>
+        <div class="hero-img">
+          <img
+            src="pics/heropic.png"
+            alt="hero"
+            style="height: auto; width: auto"
+          />
+        </div>
+        <a href="/pics/resume.png" download="resume">
+            <button type="submit">Download My Resume</button>
+        </a>
+        <a href="#contact">
+            <button>Contact Me</button>
+        </a>          
+      </section>
+      <section class="projects">
+        <h2 id="projectslink">Projects</h2>
+        <section class="project1>">
+          <div class="project1-text"></div>
+          <div class="project1-img">
+            <img src="/pics/owl.png" alt="first project"/>
+          </div>
+        </section>
+        <section class="project2">
+          <div class="project2-text">
+          </div>
+          <div class="project2-img">
+            <img src="/pics/stock.png" alt="second project"/>
+          </div>
+        </section>
+      </section>
+      <section class="aboutme"></section>
+      <section class="contact">
+        <div class="container">
+          <h2 id="contactlink">Contact Me</h2>
+          <p>
+            Feel free to contact me at
+            <a href="mailto:carlhaffar@gmail.com">carlhaffar@gmail.com</a> or reach out to me by
+            using the form below:
+          </p>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Carl's Portfolio</p>
+    </footer>
+  </body>
+</html>
