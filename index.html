@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyPortfolio</title>
-    <!--<link rel="stylesheet" href="../styles/HomePage.css" /> -->
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header>
       <h1>MyPortfolio.</h1>
       <nav>
-        <a href="#">Home</a>
-        <a href="#projectslinks">Projects</a>
+        <a href="#projectslink">Projects</a>
         <a href="#aboutmelink">About Me</a>
         <a href="#contactlink">Contact</a>
       </nav>
@@ -20,7 +19,11 @@
       <section class="hero">
         <div class="hero-text">
           <h1>Hi, I'm Carl</h1>
-          <p>Full Stack Developer <br />& <br />Data Scientist</p>
+          <p>
+            Full Stack Developer<br />
+            &<br />
+            Data Scientist
+          </p>
         </div>
         <div class="hero-img">
           <img
@@ -30,36 +33,69 @@
           />
         </div>
         <a href="/pics/resume.png" download="resume">
-            <button type="submit">Download My Resume</button>
+          <button type="submit">Download My Resume</button>
         </a>
-        <a href="#contact">
-            <button>Contact Me</button>
-        </a>          
+        <a href="#contactlink">
+          <button>Contact Me</button>
+        </a>
       </section>
       <section class="projects">
         <h2 id="projectslink">Projects</h2>
         <section class="project1>">
-          <div class="project1-text"></div>
+          <div class="project1-text">
+            <h3 id="proj1">SmartDesk</h3>
+            <p>
+              Our course tracking software, developed using JavaScript, React,
+              Node.js, HTML, CSS, and Bootstrap, offers a one-stop solution for
+              students. It allows users to view course history, track current
+              marks, and manage schedules conveniently. Reflect on past academic
+              performance, monitor progress, and stay organized with our
+              user-friendly software
+            </p>
+          </div>
           <div class="project1-img">
-            <img src="/pics/owl.png" alt="first project"/>
+            <img src="/pics/owl.png" alt="first project" />
           </div>
         </section>
         <section class="project2">
           <div class="project2-text">
+            <h3 id="proj2">MarketGraphix</h3>
+            <p>
+              StockFlow is a Python application that uses stock data APIs to
+              create custom graphs with Matplotlib. It cleans data to exclude
+              non-trading hours, and utilizes JSON for easy data parsing.
+              Simplify stock market analysis and make informed decisions with
+              StockFlow
+            </p>
           </div>
           <div class="project2-img">
-            <img src="/pics/stock.png" alt="second project"/>
+            <img src="/pics/stock.png" alt="second project" />
           </div>
         </section>
       </section>
-      <section class="aboutme"></section>
+      <section class="aboutme">
+        <div class="aboutme-text">
+          <h2 id="aboutmelink">About Me</h2>
+          <p>
+            I am a second-year software engineer who has developed products for
+            various organisations ranging from Western Software Engineering Team
+            to Freshco. I specialize in building applications specific to
+            problems that I find in my day to day life. I have done work in
+            software development, web app creation, front-end/back-end web,
+            database/server management, and data science applications.
+          </p>
+        </div>
+        <div class="aboutme-img">
+          <img src="/pics/me.png" alt="image of me" />
+        </div>
+      </section>
       <section class="contact">
         <div class="container">
           <h2 id="contactlink">Contact Me</h2>
           <p>
             Feel free to contact me at
-            <a href="mailto:carlhaffar@gmail.com">carlhaffar@gmail.com</a> or reach out to me by
-            using the form below:
+            <a href="mailto:carlhaffar@gmail.com">carlhaffar@gmail.com</a> or
+            reach out to me by using the form below:
           </p>
           <form>
             <label for="name">Name:</label>
@@ -69,7 +105,6 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea>
             <button type="submit">Send</button>
-        </form>
           </form>
         </div>
       </section>
