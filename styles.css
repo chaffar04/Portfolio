@@ -167,7 +167,7 @@ nav a {
 
 /* Style the image within the image container */
 .aboutme-img img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border: 0px solid #fff; /* Add a border around the image */
   border-radius: 5px; /* Add border radius for a rounded look */
